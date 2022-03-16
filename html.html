@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Proyecto-01</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="tituloPagina"><u>Calculadora</u></h1>
+        </div>
+        <div id="textoId">
+            <div>
+                <h4>Inserte dos números en las cajas vacias de abajo, luego haga click en uno de los operadores logicos matemáticos y la página le dira el resultado. </h4>
+            </div>
+            <div>
+                <h4>La página se tomará el trabajo de hacer la cuenta entre los dos números indicados con el operador elegido.</h4>
+            </div>
+        </div>   
+        <br>
+        <div>
+            <input type="number" placeholder="Primer número aqui" id="NumeroA">
+            <input type="number" placeholder="Segundo número aqui" id="NumeroB">
+        </div>
+        <br>
+        <div id="botonId">
+            <button onclick="suma()">+</button>
+            <button onclick="resta()">-</button>
+            <button onclick="multiplicacion()">x</button>
+            <button onclick="division()">/</button>
+        </div>
+        <br>
+        <div id="ResultadoId"><br></div>
+        <script src="./Javascript.js"></script>
+
+    </body>
+</html>

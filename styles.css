@@ -1,0 +1,29 @@
+body {
+    
+    background-image: url(./imgs/light-live-background-css.jpg);
+}
+div {
+    text-align: center;
+}
+#ResultadoId {
+    border: 1px black solid;
+    margin-left: 33em;
+    margin-right: 33em;
+    padding: 1em;
+    background-color: snow;
+}
+button {
+    font-size: 1.10em;
+}
+#textoId {
+    border: 1px black solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: snow;
+}
+input {
+    font-size: 1em;
+}
+#tituloPagina {
+    font-size: 3em;
+}
